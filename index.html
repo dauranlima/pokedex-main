@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Links -->
+  <link rel="icon" href="./favicons/favicon-16x16.png">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- Main JS -->
+  <script defer src="./js/script.js"></script>
+
+  <title>Pokédex</title>
+</head>
+<body>
+  <div class="title">
+    <img src="/images/pokemon.svg" alt="title">
+  </div>
+  <main>
+    <div class="pulse"></div>
+    <div class="pulse2"></div>
+    <div class="pulse3"></div>
+    <div class="pulse4"></div>
+    <div class="pulse5"></div>
+    <img src="#" alt="pokemon" class="pokemon__image">
+
+    <h1 class="pokemon__data">
+      <span class="pokemon__number"></span> -
+      <span class="pokemon__name"></span>
+    </h1>
+
+    <form id="my-form" class="form">
+      <input
+        type="search"
+        class="input__search"
+        placeholder="Name or Number"
+        required
+      />
+      
+    </form>
+    <div class="buttons">
+      <button class="button btn-prev">&lt; Prev </button>
+      <button form="my-form" type="submit" class="button btn-enter">Search</button>
+      <button class="button btn-next">Next &gt;</button>
+    </div>
+      
+    <img src="./images/pokedex.png" alt="pokedex" class="pokedex">
+    <img src="./images/1pokedex.png" alt="pokedex2" class="pokedex2">
+    <div class="type">
+      <span>Type: <span class="type-pokemon">FIRE</span></span>
+    </div>
+    <div class="habilities">
+      <div>
+        <p class="hab hab1">Mega-Punch</p>
+      </div>
+      <div>
+        <p class="hab hab2">Fire-Punch</p>
+      </div>
+
+    </div>
+    <div class="habilities2">
+      <p>Moves</p>
+      <div>
+        <span class="hab move1">Mega-Punch</span>
+      </div>
+      <div>
+        <span class="hab move2">Fire-Punch</span>
+      </div>
+      <div>
+        <span class="hab move3">Thunder-Punch</span>
+      </div>
+    </div>
+    <div class="status-p">
+      <div class="">
+        <img src="/images/Hp.png" alt="hp">
+        <span>HP: <span class="hp">100</span></span>
+      </div>
+      <div class="">
+        <img src="/images/Speed.png" alt="hp">
+        <span>SPEED: <span class="speed">100</span></span>
+      </div>
+    </div>
+    <div class="power">
+      <div>
+        <div>
+          <img src="/images/Attack.png" alt="hp">
+          <span>ATTACK: <span class="attack">100</span></span>
+        </div>
+        <div class="">
+          <img src="/images/Defense.png" alt="hp">
+          <span>DEFENSE: <span class="defense">100</span></span>
+        </div>
+      </div>
+      <div>
+        <div class="">
+          <img src="/images/Special-Attack.png" alt="hp">
+          <span>SPECIAL-ATK: <span class="special-attack">100</span></span>
+        </div>
+        <div class="">
+          <img src="/images/Special-Defense.png" alt="hp">
+          <span>SPECIAL-DEF: <span class="special-defense">100</span></span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
